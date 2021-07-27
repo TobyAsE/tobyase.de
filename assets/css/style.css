@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+body {
+  background-color: #171717;
+  color: #ededed;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+#main-card {
+  -webkit-box-shadow: 0 0 20px #000;
+          box-shadow: 0 0 20px #000;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-left: 25px solid #da0037;
+  position: relative;
+}
+
+#main-card .picture {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #444444;
+  border-radius: 1000px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 20px #000;
+          box-shadow: 0 0 20px #000;
+  position: absolute;
+  top: -100px;
+  left: -125px;
+}
+
+#main-card .picture img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+#main-card .content {
+  padding: 30px 70px 20px 70px;
+}
+
+#main-card .content .contact a {
+  color: #ededed;
+  display: inline-block;
+  padding: 12px 20px 10px 20px;
+  -webkit-transition: background-color 0.2s, -webkit-box-shadow 0.4s;
+  transition: background-color 0.2s, -webkit-box-shadow 0.4s;
+  transition: background-color 0.2s, box-shadow 0.4s;
+  transition: background-color 0.2s, box-shadow 0.4s, -webkit-box-shadow 0.4s;
+}
+
+#main-card .content .contact a:hover {
+  background-color: rgba(255, 255, 255, 0.07);
+  text-decoration: none;
+}
+
+#main-card .content .contact a i {
+  font-size: 150%;
+  margin-top: -2px;
+  margin-right: 5px;
+}
+/*# sourceMappingURL=style.css.map */
